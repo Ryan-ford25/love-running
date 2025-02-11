@@ -96,6 +96,9 @@ footer{
     background-color: orange;
 }
 
+#links{
+    display: block;
+}
 /*Media query: tablets and larger (768px and up)*/
 
 @media screen and (min-width: 768px) {
