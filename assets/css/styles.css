@@ -161,6 +161,12 @@ main {
     main{
         margin-top: 79px;
     }
+
+    /*Hero section*/
+    #cover-text {
+        width: 300px;
+        right: 50px;
+    }
 }
 
 /*Media Query: screens larger than 992px*/
