@@ -111,6 +111,9 @@ main {
     padding-left: 14px;
 }
 
+#cover-text > h2, #cover-text > h3{
+    color: #ffffff;
+}
 /*Reasons section*/
 #reasons{
     margin: 20px auto;
@@ -124,28 +127,20 @@ main {
     margin-bottom: 20px
 }
 
-hr{
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
-}
-
-/*Benefits*/
-#benefits{
-    margin-top: 20px;
-}
-
-#benefits div {
+#benefits-physical >  div, #benefits-mental > div {
     line-height: 20px;
     margin-bottom: 20px;
+}
+
+#benefits hr{
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
 }
 
 #benefits p {
     padding: 0 20px;
 }
 
-#cover-text > h2, #cover-text > h3{
-    color: #ffffff;
-}
 /* Footer */
 #social-networks{
     text-align: center;
