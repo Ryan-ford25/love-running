@@ -211,7 +211,20 @@ main {
         right: 50px;
     }
 
-    /*Benefits physical*/
+    /*Reasons Section*/
+    #benefits-pyhsical, #benefits-mental{
+        display: flex;
+        flex-direction: column;
+        width: 100;
+    }
+    #benefits-pyhsical > div, #benefits-mental > div{
+        width: 75%;
+    }
+
+    #benefits-mental > div{
+        text-align: end;
+        align-self: flex-end;
+    }
 
 }
 
