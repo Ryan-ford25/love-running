@@ -142,10 +142,20 @@ main {
 }
 
 #circle-cover-bg{
-    padding-bottom: 20px;
+    background: url("../images/reasons-image.webp") no-repeat top center/cover;
     width: 90vw;
     height: 90vw;
-    background: url("../images/reasons-image.webp") no-repeat;
+    margin: 20px;
+    /*Makes it a circle*/
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* Footer */
 #social-networks{
