@@ -127,7 +127,13 @@ main {
     margin-bottom: 20px
 }
 
-#benefits-physical >  div, #benefits-mental > div {
+
+#benefits-physical >  div{
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits-mental > div {
     line-height: 20px;
     margin-bottom: 20px;
 }
