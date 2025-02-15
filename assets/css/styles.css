@@ -166,6 +166,13 @@ main {
     list-style-type: none;
 }
 
+/*Meetup Times*/
+#times{
+    background: url("../images/dublin-city.webp") no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #social-networks i{
     font-size: 160%;
     padding: 5%;
