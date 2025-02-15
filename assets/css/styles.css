@@ -127,18 +127,13 @@ main {
     margin-bottom: 20px
 }
 
-
-#benefits-physical >  div{
+#benefits-mental > div, #benefits-physical > div {
     line-height: 20px;
     margin-bottom: 20px;
+    margin: 5px;
 }
 
-#benefits-mental > div {
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#benefits hr{
+#reasons hr{
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
