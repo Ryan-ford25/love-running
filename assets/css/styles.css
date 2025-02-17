@@ -182,6 +182,8 @@ main {
     Each div will expand to fill the available space on its row */
     flex-basis: 200px;
     flex-grow: 1;
+    /*Creates a grid for the meetup times over the background image*/
+    border: 2px solid white;
 }
 
 #times h3{
