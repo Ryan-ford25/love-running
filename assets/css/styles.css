@@ -326,7 +326,7 @@ main {
     #benefits-pyhsical, #benefits-mental{
         display: flex;
         flex-direction: column;
-        width: 100;
+        width: 100%;
     }
     #benefits-pyhsical > div, #benefits-mental > div{
         width: 75%;
